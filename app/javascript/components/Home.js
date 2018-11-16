@@ -4,7 +4,8 @@ class Home extends React.Component {
   render() {
     return(
       <div>
-        <h1>This is the homepage and the searchbar will be here.</h1>
+          <input type="text" name="search" />
+          <button>Search</button>
       </div>
     );
   }
